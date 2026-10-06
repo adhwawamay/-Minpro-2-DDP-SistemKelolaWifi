@@ -1,10 +1,11 @@
-# -Minpro-2-DDP-SistemKelolaWifi
+# -Minpro-2-DDP-SistemKelolaJaringanWifi
 Nama : Adhwa Maysura
 Nim : 2609116103
 Kelas C
 
 ## Penjelasan Sistem Kelola Jaringan Wifi
 <img width="792" height="295" alt="mp 2 1" src="https://github.com/user-attachments/assets/569b7f27-6495-481a-9444-863cf93a0983" />
+<img width="1579" height="389" alt="Screenshot (97)" src="https://github.com/user-attachments/assets/00aa72ce-225f-4cb5-92bc-3b7dbed05f78" />
 
 1. Melakukan import libary
 - os → digunakan untuk membersihkan layar.
@@ -81,6 +82,77 @@ meminta password, membuat ID otomatis, menyimpan data baru.
 <img width="1451" height="339" alt="Screenshot (96)" src="https://github.com/user-attachments/assets/25693e84-6ec5-4edb-8a9f-6400e2be3515" /> 
 
 1. **def cari_wifi(...):** Pengguna memasukkan kata kunci berupa nama atau lokasi. Program kemudian akan otomatis menampilkan permintaan pengguna berserta tabel
+
+<img width="1579" height="389" alt="Screenshot (97)" src="https://github.com/user-attachments/assets/ec934fe7-b548-4689-84f1-7a39fe9e0cff" />
+
+1. **def login():** Yang nantinya akan diarahkan untuk memasukan username, dilanjutkan dengan password, lalu sistem akan otomatis mengecek akun, jika benar login dinyatakan berhasil jika salah login dinyatakan gagal. Jika gagal hingga 3x kesempatan untuk login habis setelah itu program akan dihentikan
+
+<img width="1576" height="642" alt="Screenshot (98)" src="https://github.com/user-attachments/assets/cd0b2e19-1109-4384-b90a-1f7a24cd9d5b" /> 
+
+1. **def menu_admin(...):** Login menu admin akan diarahkn ke 6 menu yaitu
+- Tambah WiFi
+- Tampilkan WiFi
+- Ubah WiFi
+- Hapus WiFi
+- Cari WiFi
+- Logout
+
+<img width="784" height="265" alt="2026-10-07 (4)" src="https://github.com/user-attachments/assets/b1845933-5386-47c8-9074-15068d6c8e7a" />
+
+1. **def menu_user(...):** untuk user hanya memiliki 3 pilihan:
+- Tampilkan WiFi
+- Cari WiFi
+- Logout
+User hanya dapat melihat dan mencari data
+
+<img width="1593" height="727" alt="Screenshot (100)" src="https://github.com/user-attachments/assets/a81438d0-0400-44a7-a51c-88d749429ec4" /> 
+
+<img width="1573" height="214" alt="Screenshot (101)" src="https://github.com/user-attachments/assets/da18a09f-07be-484d-b5c4-4a6fbda42e41" />
+
+
+1. **def main():** fungsi utama untuk menjalankan semua program seperti
+- Menampilkan login.
+- Mengecek role pengguna.
+- Mengarahkan ke menu admin atau user.
+Setelah logout, pengguna ditanya apakah ingin login dengan akun lain.
+Jika tidak, program berhenti.
+
+2. **if __name__ == "__main__":** Bagian ini memastikan fungsi main() dijalankan ketika sistem Python dijalankan secara langsung.
+
+3. **except KeyboardInterrupt:** Penanganan KeyboardInterrupt. Jika pengguna menghentikan program secara manual, misalnya dengan Ctrl + C, program menampilkan pesan bahwa program dihentikan oleh pengguna
+
+
+## Hasil Run
+### Hasil Run (User)
+
+<img width="1596" height="287" alt="Screenshot (103)" src="https://github.com/user-attachments/assets/3d12e21e-1f4e-43e1-a3a2-7fa595fc1875" />
+
+<img width="803" height="324" alt="2026-10-07 (5)" src="https://github.com/user-attachments/assets/586c0381-e473-4bf5-827f-68fbb6f0503d" />
+
+<img width="1606" height="595" alt="Screenshot (107)" src="https://github.com/user-attachments/assets/2ddec44d-dff9-4f06-a1ed-378427826a12" />
+
+<img width="1598" height="417" alt="Screenshot (109)" src="https://github.com/user-attachments/assets/554e9989-9d73-4aeb-b0b8-8a025e67acac" />
+
+### Hasil Run (Admin)
+<img width="1597" height="361" alt="Screenshot (110)" src="https://github.com/user-attachments/assets/6a7fc004-ddf4-4372-a7b1-d7bf003cc622" />
+
+<img width="1606" height="611" alt="Screenshot (113)" src="https://github.com/user-attachments/assets/802caeb7-a214-49c7-9033-20afa9e48ada" />
+
+<img width="1577" height="950" alt="Screenshot (115)" src="https://github.com/user-attachments/assets/af25fb92-1a07-4908-acd6-d209bda63b49" />
+
+<img width="1598" height="875" alt="Screenshot (116)" src="https://github.com/user-attachments/assets/768c9da2-5191-4a2f-8a59-ceae78b6e86d" />
+
+<img width="1593" height="682" alt="Screenshot (118)" src="https://github.com/user-attachments/assets/a7dbeeb0-37ff-405d-b762-edee763d15e4" />
+
+<img width="1589" height="692" alt="Screenshot (119)" src="https://github.com/user-attachments/assets/7bbd4678-fd1c-41b5-aed0-369510c6e99a" />
+
+<img width="1920" height="1080" alt="Screenshot (117)" src="https://github.com/user-attachments/assets/ac66ac50-6de8-4f0f-81a6-b60352a88aa4" />
+
+
+
+
+
+
 
 
 
