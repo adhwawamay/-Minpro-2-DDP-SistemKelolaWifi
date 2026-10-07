@@ -148,6 +148,43 @@ Jika tidak, program berhenti.
 
 <img width="1920" height="1080" alt="Screenshot (117)" src="https://github.com/user-attachments/assets/ac66ac50-6de8-4f0f-81a6-b60352a88aa4" />
 
+## Flowchart
+
+<img width="3704" height="2398" alt="mini projek 2 drawio" src="https://github.com/user-attachments/assets/b3bcb021-2429-473f-8e56-b9f58aa2dbb8" />
+
+1. Start
+   - Sistem dijalankan dan menampilkan header “SISTEM DATA JARINGAN WIFI”.
+   - Percobaan login dimulai dari angka 1.
+2. Login
+   - Pengguna memasukkan username dan password.
+   - Sistem mengecek apakah username terdaftar dan password sesuai.
+   - Jika salah, sistem menampilkan pesan kesalahan dan jumlah percobaan yang tersisa.
+   - Jika sudah 3 kali gagal, program dihentikan.
+   - Jika benar, sistem menampilkan username dan role pengguna.
+3. Pengecekan Role
+   - Jika role adalah admin, pengguna masuk ke Menu Admin dengan 6 pilihan.
+   - Jika role adalah user, pengguna masuk ke Menu User dengan 3 pilihan.
+4. Menu Admin
+   Admin dapat:
+   - Tambah WiFi → memasukkan nama, lokasi, dan password WiFi. Sistem memvalidasi data sebelum menyimpan.
+   - Tampilkan WiFi → menampilkan seluruh data jaringan WiFi dalam bentuk tabel.
+   - Ubah WiFi → memilih ID WiFi kemudian mengubah nama, lokasi, atau password.
+   - Hapus WiFi → memilih data WiFi dan melakukan konfirmasi sebelum menghapus.
+   - Cari WiFi → mencari jaringan berdasarkan nama atau lokasi.
+   - Logout → keluar dari akun dan kembali ke proses utama.
+5. Menu User
+   User memiliki akses yang lebih terbatas, yaitu:
+   - Tampilkan WiFi
+   - Cari WiFi
+   - Logout
+6. Logout dan Selesai
+   - Setelah logout, sistem menanyakan apakah pengguna ingin login dengan akun lain.
+   - Jika Ya, sistem kembali ke proses login.
+   - Jika Tidak, sistem menampilkan pesan bahwa sistem berhasil dihentikan dan proses berakhir.
+     
+Kesimpulan singkat alur<br>
+login - pengecekan role - menu Admin/User - pengelolaan atau pencarian data WiFi - logout - selesai.
+
 
 
 
